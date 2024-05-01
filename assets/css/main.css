@@ -1,4 +1,4 @@
-/*! Lynx v1.3.1 | MIT License | https://github.com/jpanther/lynx */
+/*! Lynx v1.4.0 | MIT License | https://github.com/jpanther/lynx */
 
 @tailwind base;
 @tailwind components;
@@ -11,7 +11,7 @@
 
 /* Links */
 .link {
-  @apply text-white bg-primary-700 hover:brightness-90;
+  @apply bg-primary-700 text-white hover:brightness-90;
 }
 
 .link-amazon {
@@ -20,6 +20,13 @@
 }
 .link-apple {
   background-color: #333;
+}
+.link-bandcamp {
+  background-color: #1da0c3;
+}
+.link-bluesky {
+  background: #0084ff;
+  background: linear-gradient(2.35619rad, #5a72fa 0%, #0084ff 100%);
 }
 .link-codepen {
   background-color: #1e1f26;
